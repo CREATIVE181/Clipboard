@@ -34,7 +34,7 @@ cd clipboard-sharing-service
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # На Windows используйте `venv\Scriptsctivate`
+source venv/bin/activate  # На Windows используйте `.\venv\Scripts\activate.ps1`
 ```
 
 Затем установите все необходимые зависимости:
