@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Указываем порт, который будет слушать приложение
-EXPOSE 5000
+EXPOSE 5005
 
 # Запускаем Flask
-CMD ["gunicorn", "-w", "4", "app:app", "--bind", "0.0.0.0:5001"]
+CMD ["gunicorn", "-w", "4", "app:app", "--bind", "0.0.0.0:5005"]
